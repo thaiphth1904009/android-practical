@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter feedback details to send to the developer:"
+        android:id="@+id/tvTitle"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/edName"
+        android:background="#fff"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mail"
+        android:id="@+id/edMail"
+        android:background="#fff"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/spinner"
+        android:layout_margin="5dp"
+        android:background="#fff"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/edFeedback"
+        android:inputType="textMultiLine"
+        android:hint="Feedback"
+        android:gravity="top"
+        android:background="#fff"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:ems="10"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:text="World you like an email response?"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btSend"
+        android:layout_marginTop="20dp"
+        android:text="Send Feedback"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:textColor="#fff"/>
+</LinearLayout>

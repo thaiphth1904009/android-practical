@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">phamthongthai_practical</string>
+    <string name="name">Name</string>
+    <string name="mail">Mail</string>
+    <string name="gender">Gender</string>
+    <string name="feedback">Feedback</string>
+</resources>
